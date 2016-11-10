@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/binary-watch/
+// https://discuss.leetcode.com/topic/61200/annotated-c-solution-calculating-all-led-permutations
 #include<iostream>
 #include<vector>
 #include<string>
