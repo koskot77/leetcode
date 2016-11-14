@@ -1,3 +1,4 @@
+/// https://discuss.leetcode.com/topic/61473/annotated-greedy-c-solution
 #include<string>
 #include<iostream>
 #include<stdlib.h>
