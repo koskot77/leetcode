@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/reverse-vowels-of-a-string/
+#https://discuss.leetcode.com/topic/68637/a-python-3-liners-solution
 def reverseVowels( s):
         """
         :type s: str
