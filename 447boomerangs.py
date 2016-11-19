@@ -8,6 +8,31 @@ class Solution(object):
         """
         if len(points) < 2:
             return 0
+        
+        sqrDist = lambda a,b: (a[0]-b[0])*(a[0]-b[0]) + (a[1]-b[1])*(a[1]-b[1])
+        s = 0
+        for i in points:
+            m = {}
+            for j in points:
+                d = sqrDist(i,j)
+                m[d] = 1 if d not in m else m[d]+1
+            q = [v*(v-1) for k,v in m.iteritems() if v>1]
+            s = s if len(q)==0 else s + reduce(lambda x,y:x+y, q)
+        return s
+
+        # the code below exceeds memory
+        # let's make a 2-elements tuple for using the coordinates as keys
+        pointKeys = [ (p[0],p[1]) for p in points ]
+        # euculidian squared distance in 2D
+        sqrDist = lambda a,b: (a[0]-b[0])*(a[0]-b[0]) + (a[1]-b[1])*(a[1]-b[1]) 
+        # collect edges that connect every point and all other points, remember the origin and distance only
+        edges = [ (i,sqrDist(i,j)) for i in pointKeys for j in pointKeys ]
+        # reduceByKey
+        m = {}
+        for e in edges : m[e] = 1 if e not in m else m[e]+1
+        return sum( [ v*(v-1) for k,v in m.iteritems() if v > 1 ] )
+        
+        # the code below run slow
         # let's better make a 2-elements tuuple out of the coordinates
         points2D = [ (p[0],p[1]) for p in points ]
         # euculidian squared distance in 2D
@@ -26,7 +51,6 @@ class Solution(object):
         pairCounts = { d: [ n*(n-1) if n > 1 else 0 for p,n in group.iteritems() ] for d,group in counts.iteritems() }
         # final reduce step
         return reduce(lambda a,b:a+b, [ reduce(lambda x,y:x+y,a) for d,a in pairCounts.iteritems() ])
-
 
 s = Solution()
 
