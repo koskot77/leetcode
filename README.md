@@ -8,11 +8,11 @@ Some of the annotated solutions above were also posted on the leetcode forum:
 
 [342. Power of Four](https://leetcode.com/problems/power-of-four/) &mdash; [Python solution](https://discuss.leetcode.com/topic/47200/dumb-and-fast-python-solution)
 
-[368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) &mdash; [C++ solution](https://discuss.leetcode.com/topic/71680/annotated-java-solution)
+[368. Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/) &mdash; [Java solution](https://discuss.leetcode.com/topic/71680/annotated-java-solution)
 
 [388. Longest Absolute File Path](https://leetcode.com/problems/longest-absolute-file-path/) &mdash; [C++ solution](https://discuss.leetcode.com/topic/72000/tab-is-not-replaceable-with-4-spaces)
 
-[400i. Nth Digit](https://leetcode.com/problems/nth-digit/) &mdash; [C++ solution](https://discuss.leetcode.com/topic/60401/annotated-c-solution)
+[400. Nth Digit](https://leetcode.com/problems/nth-digit/) &mdash; [C++ solution](https://discuss.leetcode.com/topic/60401/annotated-c-solution)
 
 [401. Binary Watch](https://leetcode.com/problems/binary-watch/) &mdash; [C++ solution](https://discuss.leetcode.com/topic/61200/annotated-c-solution-calculating-all-led-permutations)
 
