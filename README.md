@@ -20,7 +20,7 @@ Some of the annotated solutions above were also posted on the leetcode forum:
 
 [421. Maximum XOR of Two Numbers in an Array](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) &mdash; [C++ solution](https://discuss.leetcode.com/topic/67825/annotated-c-solution-with-bit-shifts)
 
-[433, Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) [C++ solution](https://discuss.leetcode.com/topic/67240/c-bfs-hashed-look-ups-o-size-bank-running-time)
+[433, Minimum Genetic Mutation](https://leetcode.com/problems/minimum-genetic-mutation/) &mdash; [C++ solution](https://discuss.leetcode.com/topic/67240/c-bfs-hashed-look-ups-o-size-bank-running-time)
 
-[477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) [C++ solution](https://discuss.leetcode.com/topic/73368/c-10-lines-annotated)
+[477. Total Hamming Distance](https://leetcode.com/problems/total-hamming-distance/) &mdash; [C++ solution](https://discuss.leetcode.com/topic/73368/c-10-lines-annotated)
 
